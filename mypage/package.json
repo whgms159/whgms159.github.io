@@ -15,8 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "gh-pages -d build"
   },
+  "homepage": "whgms159.github.io",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -36,7 +38,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
     "mypage": "^1.0.0"
   }
 }
